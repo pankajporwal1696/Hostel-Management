@@ -1,0 +1,9 @@
+development:
+  encoding: unicode
+  adapter: postgresql
+  pool: 5
+  database: 'hostel_management'
+  username: 'widmates'
+  password: 'rails'
+  host: 'localhost'
+  port: 5432
