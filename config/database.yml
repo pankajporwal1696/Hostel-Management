@@ -3,7 +3,7 @@ development:
   adapter: postgresql
   pool: 5
   database: 'hostel_management'
-  username: 'widmates'
-  password: 'rails'
+  username: 'username'
+  password: 'password'
   host: 'localhost'
   port: 5432

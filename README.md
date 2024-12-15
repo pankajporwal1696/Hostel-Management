@@ -1,27 +1,28 @@
 # Hostel-Management
-=======
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application is designed to manage hostel bookings and room assignments.
 
-Things you may want to cover:
+---
 
-* Ruby version
+## Ruby Version
 
-* System dependencies
+- **Ruby 2.7.0**
 
-* Configuration
+---
 
-* Database creation
-	sudo -u "username" createdb hostel_management
+## System Dependencies
 
-* Database initialization
+Before you begin, ensure the following dependencies are installed on your system:
 
-* How to run the test suite
+1. **Ruby**: Version 2.7.0 or later.
+2. **PostgreSQL**: Ensure PostgreSQL is installed and configured.
 
-* Services (job queues, cache servers, search engines, etc.)
+---
 
-* Deployment instructions
+## Configuration
 
-* ...
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/pankajporwal1696/hostel-management.git
+cd hostel-management
