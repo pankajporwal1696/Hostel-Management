@@ -49,7 +49,7 @@ class RoomsController < ApplicationController
   private
 
   def set_hostel
-    @hostel = current_user.hostels.find(params[:hostel_id])
+    @hostel = Hostel.find(params[:hostel_id])
   rescue ActiveRecord::RecordNotFound
     render json: { error: 'Hostel not found.' }, status: :not_found
   end

@@ -5,8 +5,8 @@ class RoomSerializer < ActiveModel::Serializer
     object.residents.map do |resident|
       {
         id: resident.id,
-        name: resident.name, # Assumes Resident/User model has a `name` attribute
-        email: resident.email # Assumes Resident/User model has an `email` attribute
+        name: resident.name, 
+        email: resident.email
       }
     end
   end

@@ -1,6 +1,6 @@
 module Auth
   class JsonWebToken
-    SECRET_KEY = Rails.application.credentials.dig(:secret_key_base) || ENV['JWT_SECRET']
+    SECRET_KEY = Rails.application.credentials.dig(:secret_key_base) || Rails.application.secrets.secret_key_base
     raise 'Missing secret key for JWT' unless SECRET_KEY.present?
 
     def self.encode(payload, exp = 24.hours.from_now)
